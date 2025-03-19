@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "12bLXRddVWCYJuxAL2G3km90Wf+ca4xWGAo77ZV32zw=",
+  "Source": "TiendaKeytlin.Server",
+  "BasePath": "_content/TiendaKeytlin.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\tiendakeytlin.client.esproj",
+      "Version": 2,
+      "Source": "tiendakeytlin.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
