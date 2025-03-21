@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sr3Z3gbLyo8=",
+  "dgSpecHash": "4TEafBIUMC4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
+  "projectFilePath": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karin\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\karin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

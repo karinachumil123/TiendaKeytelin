@@ -56,6 +56,8 @@ export class AuthInterceptor implements HttpInterceptor {
 import { Injectable as GuardInjectable } from '@angular/core';
 import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ContactoComponent } from './Menu/Administracion/contacto/contacto.component';
+import { ContactoModalComponent } from './Menu/Administracion/contacto/contacto-modal/contacto-modal.component';
 
 @GuardInjectable()
 export class AuthGuard implements CanActivate {
@@ -86,6 +88,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   // Ejemplo de una ruta protegida
   { path: 'dashboard', component: DashboardComponent },
+  { path: 'contacto', component: ContactoComponent },
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: '**', redirectTo: '/login' }
 ];
@@ -101,6 +104,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     DashboardComponent,
+    ContactoComponent,
+    ContactoModalComponent,
     // No es necesario declarar LoginComponent aquí
   ],
   providers: [

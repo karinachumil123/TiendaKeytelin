@@ -1,41 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\",
+  "WorkspaceRootPath": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\onedrive\\escritorio\\tiendakeytelinp\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\onedrive\\escritorio\\tiendakeytelinp\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\onedrive\\escritorio\\tiendakeytelinp\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\onedrive\\escritorio\\tiendakeytelinp\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\karin\\onedrive\\escritorio\\tiendakeytelinp\\tiendakeytlin\\tiendakeytlin.server\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.server\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\onedrive\\escritorio\\tiendakeytelinp\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\interceptors\\auth.interceptors.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\interceptors\\auth.interceptors.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\interceptors\\auth.interceptors.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\onedrive\\escritorio\\tiendakeytelinp\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\login\\login.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\onedrive\\escritorio\\tiendakeytelinp\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\onedrive\\escritorio\\tiendakeytelinp\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\tiendakeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -46,80 +70,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dashboard.component.css",
-              "DocumentMoniker": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css",
-              "ToolTip": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-15T15:56:38.347Z",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\.gitignore",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\.gitignore",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\.gitignore",
+              "RelativeToolTip": "tiendakeytlin.client\\.gitignore",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-21T07:28:51.985Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\styles.css",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\styles.css",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\styles.css",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-21T06:15:50.909Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "dashboard.component.html",
-              "DocumentMoniker": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html",
-              "ToolTip": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html",
-              "ViewState": "AgIAABQAAAAAAAAAAAAcwCEAAAATAAAAAAAAAA==",
+              "Title": "contacto.component.html",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\contacto\\contacto.component.html",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\contacto\\contacto.component.html",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\contacto\\contacto.component.html",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\contacto\\contacto.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-15T15:45:39.98Z",
+              "WhenOpened": "2025-03-21T05:19:37.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\TiendaKeytlin.Server\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "TiendaKeytlin.Server\\Services\\JwtService.cs",
-              "ToolTip": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\TiendaKeytlin.Server\\Services\\JwtService.cs",
-              "RelativeToolTip": "TiendaKeytlin.Server\\Services\\JwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:27:09.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "app.module.ts",
-              "DocumentMoniker": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\app.module.ts",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\app.module.ts",
-              "ToolTip": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\app.module.ts",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\app.module.ts",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "dashboard.component.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.ts",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-15T10:18:44.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "login.component.ts",
-              "DocumentMoniker": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
-              "ToolTip": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-15T10:18:32.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T05:03:36.731Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "dashboard.component.css",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-15T15:56:38.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\app.module.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\app.module.ts",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-15T10:18:44.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dashboard.component.html",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\dashboard\\dashboard.component.html",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-15T15:45:39.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "angular.json",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\angular.json",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\angular.json",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\angular.json",
+              "RelativeToolTip": "tiendakeytlin.client\\angular.json",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-21T06:20:11.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-21T06:43:03.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\TiendaKeytlin.Server\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "TiendaKeytlin.Server\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\TiendaKeytlin.Server\\Services\\JwtService.cs",
+              "RelativeToolTip": "TiendaKeytlin.Server\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T10:27:09.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.component.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-15T10:18:32.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "auth.interceptors.ts",
-              "DocumentMoniker": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\interceptors\\auth.interceptors.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\interceptors\\auth.interceptors.ts",
               "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\interceptors\\auth.interceptors.ts",
-              "ToolTip": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\interceptors\\auth.interceptors.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\interceptors\\auth.interceptors.ts",
               "RelativeToolTip": "tiendakeytlin.client\\src\\app\\interceptors\\auth.interceptors.ts",
               "ViewState": "AgIAAAkAAAAAAAAAAAAcwBoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
@@ -127,11 +220,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "login.component.css",
-              "DocumentMoniker": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
               "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
-              "ToolTip": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
               "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -139,11 +232,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "login.component.spec.ts",
-              "DocumentMoniker": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.spec.ts",
               "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.spec.ts",
-              "ToolTip": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.spec.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.spec.ts",
               "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.spec.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
@@ -151,11 +244,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "login.component.html",
-              "DocumentMoniker": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
               "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
-              "ToolTip": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
+              "ToolTip": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
               "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
               "ViewState": "AgIAABIAAAAAAAAAAAAAwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",

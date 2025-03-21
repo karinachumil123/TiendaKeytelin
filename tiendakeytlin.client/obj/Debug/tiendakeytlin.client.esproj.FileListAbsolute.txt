@@ -1,2 +1,3 @@
 C:\Users\guait\Desktop\TiendaKeytlin\tiendakeytlin.client\obj\Debug\tiendakeytlin.client.esproj.CoreCompileInputs.cache
 C:\Users\karin\OneDrive\Escritorio\TiendaKeytelinP\TiendaKeytlin\tiendakeytlin.client\obj\Debug\tiendakeytlin.client.esproj.CoreCompileInputs.cache
+C:\Users\karin\Documents\TiendaKeytlin\tiendakeytlin.client\obj\Debug\tiendakeytlin.client.esproj.CoreCompileInputs.cache

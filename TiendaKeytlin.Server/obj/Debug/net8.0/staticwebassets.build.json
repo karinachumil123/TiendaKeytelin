@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "12bLXRddVWCYJuxAL2G3km90Wf+ca4xWGAo77ZV32zw=",
+  "Hash": "ILY1iZZze9N/Co0Asx7Nt2CWMlehcCMq7l4zPa1a0Ho=",
   "Source": "TiendaKeytlin.Server",
   "BasePath": "_content/TiendaKeytlin.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\karin\\OneDrive\\Escritorio\\TiendaKeytelinP\\TiendaKeytlin\\tiendakeytlin.client\\tiendakeytlin.client.esproj",
+      "Identity": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\tiendakeytlin.client.esproj",
       "Version": 2,
       "Source": "tiendakeytlin.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

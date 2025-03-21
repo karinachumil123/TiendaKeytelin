@@ -1,60 +1,12 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+ul {
+  list-style: none;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
 }
 
-header {
-  background-color: #4CAF50;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  font-size: 24px;
+.cursor-pointer {
+  cursor: pointer;
 }
 
-.container {
-  display: flex;
-  flex: 1;
-}
-
-nav {
-  background-color: #333;
-  color: white;
-  width: 200px;
-  padding: 15px;
-}
-
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-    nav ul li {
-      margin: 15px 0;
-    }
-
-      nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-size: 18px;
-      }
-
-        nav ul li a:hover {
-          text-decoration: underline;
-        }
-
-main {
-  flex: 1;
-  padding: 20px;
-  background-color: #f4f4f4;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
+.hidden {
+  display: none;
 }
