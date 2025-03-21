@@ -5,6 +5,24 @@
       {
         "Path": "tiendakeytlin.client\\tiendakeytlin.client.esproj",
         "Action": "Start",
+<<<<<<< HEAD
+=======
+        "DebugTarget": "localhost (Edge)"
+      },
+      {
+        "Path": "TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  },
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "tiendakeytlin.client\\tiendakeytlin.client.esproj",
+        "Action": "Start",
+>>>>>>> e610747 (Login completo)
         "DebugTarget": "localhost (Chrome)"
       },
       {

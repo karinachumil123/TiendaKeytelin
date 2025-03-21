@@ -2,12 +2,13 @@ import { Component, HostListener, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-dashboard',
-  standalone: false,
   templateUrl: './dashboard.component.html',
-  styleUrl: './dashboard.component.css'
+  styleUrls: ['./dashboard.component.css'],
+  standalone: true // Marca el componente como standalone
 })
-export class DashboardComponent {
+export class DashboardComponent { }
 
+<<<<<<< HEAD
   isDropdownOpen = {
     caja: false,
     productos: false,
@@ -29,3 +30,5 @@ export class DashboardComponent {
   }
 
 }
+=======
+>>>>>>> e610747 (Login completo)

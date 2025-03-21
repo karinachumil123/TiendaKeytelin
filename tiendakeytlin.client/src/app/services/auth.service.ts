@@ -6,20 +6,20 @@ import { environment } from '../../environments/environment';
 
 // Definir interfaces directamente en el servicio
 export interface LoginModel {
-  username: string;
+  email: string; // Cambiado a 'email' para coincidir con el backend
   password: string;
 }
 
 export interface LoginResponse {
   token: string;
-  expiration: Date;
+  expiration: string; // Cambiado a 'string' para manejar la fecha como cadena
   name: string;
   userId: number;
 }
 
 export interface User {
   id: number;
-  username: string;
+  email: string; // Cambiado a 'email' para coincidir con el backend
   name: string;
 }
 
@@ -48,11 +48,11 @@ export class AuthService {
         tap(response => {
           // Guardar token y datos de usuario en localStorage
           localStorage.setItem('token', response.token);
-          localStorage.setItem('tokenExpiration', response.expiration.toString());
+          localStorage.setItem('tokenExpiration', response.expiration);
 
           const user: User = {
             id: response.userId,
-            username: loginData.username,
+            email: loginData.email, // Cambiado a 'email'
             name: response.name
           };
 

@@ -1,13 +1,21 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "ILY1iZZze9N/Co0Asx7Nt2CWMlehcCMq7l4zPa1a0Ho=",
+=======
+  "Hash": "na/J4tZJoKdocTQDnXuphcjIvJ5kwiqevhqevgtFMYE=",
+>>>>>>> e610747 (Login completo)
   "Source": "TiendaKeytlin.Server",
   "BasePath": "_content/TiendaKeytlin.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client\\tiendakeytlin.client.esproj",
+=======
+      "Identity": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\TiendaKeytelin\\tiendakeytlin.client\\tiendakeytlin.client.esproj",
+>>>>>>> e610747 (Login completo)
       "Version": 2,
       "Source": "tiendakeytlin.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

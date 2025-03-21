@@ -8,28 +8,32 @@ using TiendaKeytlin.Server.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Configuración de CORS
+
+
+// Configura CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
 });
 
-// Configuración de JWT
+// Añadir servicios de autenticación JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
-        options.RequireHttpsMetadata = false;  // Cambia a true si usas HTTPS
-        options.SaveToken = true;
-        // Clave secreta para validar el JWT
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
             ValidateAudience = true,
             ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = builder.Configuration["JWT:Issuer"],
-            ValidAudience = builder.Configuration["JWT:Audience"],
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecretKey"]))
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:SecretKey"]))
         };
     });
 
@@ -37,8 +41,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Configurar el servicio de JWT
-builder.Services.AddScoped<JwtService>();  // Cambiado de Singleton a Scoped para acceder al contexto
 
 builder.Services.AddControllers();
 
@@ -58,17 +60,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// Usar CORS
-app.UseCors(builder => builder
-    .WithOrigins("https://localhost:56232")
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    .AllowCredentials());
+
 
 app.UseAuthentication(); // Habilita la autenticación JWT
 app.UseAuthorization(); // Habilita la autorización basada en JWT
 
 app.UseHttpsRedirection();
+
+
+app.UseCors("AllowAllOrigins"); // Habilita CORS
 
 app.MapControllers();
 app.MapFallbackToFile("/index.html");

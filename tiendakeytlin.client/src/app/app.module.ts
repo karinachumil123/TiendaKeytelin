@@ -1,88 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-import { RouterModule, Routes } from '@angular/router';
-
-import { AppComponent } from './app.component';
-import { LoginComponent } from './components/login/login.component'; // Asegúrate de que LoginComponent esté importado
-
-import { AuthService } from './services/auth.service';
-
-// Interceptor para añadir el token en las solicitudes
-import { Injectable } from '@angular/core';
-import {
-  HttpRequest,
-  HttpHandler,
-  HttpEvent,
-  HttpInterceptor,
-  HttpErrorResponse
-} from '@angular/common/http';
-import { Observable, throwError } from 'rxjs';
-import { catchError } from 'rxjs/operators';
-import { Router } from '@angular/router';
-
-@Injectable()
-export class AuthInterceptor implements HttpInterceptor {
-
-  constructor(private authService: AuthService, private router: Router) { }
-
-  intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
-    const token = localStorage.getItem('token');
-
-    if (token) {
-      request = request.clone({
-        setHeaders: {
-          Authorization: `Bearer ${token}`
-        }
-      });
-    }
-
-    return next.handle(request).pipe(
-      catchError((error: HttpErrorResponse) => {
-        if (error.status === 401) {
-          localStorage.removeItem('token');
-          localStorage.removeItem('tokenExpiration');
-          localStorage.removeItem('currentUser');
-          this.router.navigate(['/login']);
-        }
-        return throwError(() => error);
-      })
-    );
-  }
-}
-
-// Guardia de autenticación
-import { Injectable as GuardInjectable } from '@angular/core';
-import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
+import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+<<<<<<< HEAD
 import { ContactoComponent } from './Menu/Administracion/contacto/contacto.component';
 import { ContactoModalComponent } from './Menu/Administracion/contacto/contacto-modal/contacto-modal.component';
+=======
+import { JwtInterceptor } from './interceptors/jwt.interceptors';
+import { JwtModule } from '@auth0/angular-jwt';
+>>>>>>> e610747 (Login completo)
 
-@GuardInjectable()
-export class AuthGuard implements CanActivate {
-
-  constructor(
-    private authService: AuthService,
-    private router: Router
-  ) { }
-
-  canActivate(
-    route: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot): boolean {
-
-    const token = localStorage.getItem('token');
-    const expiration = localStorage.getItem('tokenExpiration');
-
-    if (token && expiration && new Date(expiration) > new Date()) {
-      return true;
-    }
-
-    this.router.navigate(['/login'], { queryParams: { returnUrl: state.url } });
-    return false;
-  }
+export function tokenGetter() {
+  return localStorage.getItem('token');
 }
 
+<<<<<<< HEAD
 // Definir rutas
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -93,25 +31,38 @@ const routes: Routes = [
   { path: '**', redirectTo: '/login' }
 ];
 
+=======
+>>>>>>> e610747 (Login completo)
 @NgModule({
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpClientModule,
-    RouterModule.forRoot(routes),
-    LoginComponent // Importa el componente standalone aquí
-  ],
   declarations: [
     AppComponent,
+<<<<<<< HEAD
     DashboardComponent,
     ContactoComponent,
     ContactoModalComponent,
     // No es necesario declarar LoginComponent aquí
+=======
+    SidebarComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    RouterModule,
+    FormsModule,
+    HttpClientModule,
+    LoginComponent, // Importa LoginComponent como standalone
+    DashboardComponent, // Importa DashboardComponent como standalone
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: tokenGetter,
+        allowedDomains: ['localhost:5010'],
+        disallowedRoutes: ['http://localhost:5010/api/auth/login']
+      }
+    })
+>>>>>>> e610747 (Login completo)
   ],
   providers: [
-    AuthService,
-    AuthGuard,
-    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
+    { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true }
   ],
   bootstrap: [AppComponent]
 })

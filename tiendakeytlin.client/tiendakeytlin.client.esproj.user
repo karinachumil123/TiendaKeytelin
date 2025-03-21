@@ -7,7 +7,11 @@
   "type": "chrome",
   "request": "launch",
   "url": "https://localhost:56232",
+<<<<<<< HEAD
   "webRoot": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\tiendakeytlin.client"
+=======
+  "webRoot": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\TiendaKeytelin\\tiendakeytlin.client"
+>>>>>>> e610747 (Login completo)
 }</LaunchJsonTarget>
   </PropertyGroup>
 </Project>

@@ -3,7 +3,11 @@
 "ServerUrl": "https://localhost:56232",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
+<<<<<<< HEAD
 "WorkingDirectory": "C:\\Users\\karin\\Documents\\TiendaKeytlin\\TiendaKeytlin.Server\\..\\tiendakeytlin.client",
+=======
+"WorkingDirectory": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\TiendaKeytelin\\TiendaKeytlin.Server\\..\\tiendakeytlin.client",
+>>>>>>> e610747 (Login completo)
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

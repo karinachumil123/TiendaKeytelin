@@ -17,13 +17,21 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TiendaKeytlin.Server
 build_property.RootNamespace = TiendaKeytlin.Server
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\karin\Documents\TiendaKeytlin\TiendaKeytlin.Server\
+=======
+build_property.ProjectDir = C:\Users\guait\Desktop\Nueva carpeta (2)\TiendaKeytelin\TiendaKeytlin.Server\
+>>>>>>> e610747 (Login completo)
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\karin\Documents\TiendaKeytlin\TiendaKeytlin.Server
+=======
+build_property.MSBuildProjectDirectory = C:\Users\guait\Desktop\Nueva carpeta (2)\TiendaKeytelin\TiendaKeytlin.Server
+>>>>>>> e610747 (Login completo)
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 

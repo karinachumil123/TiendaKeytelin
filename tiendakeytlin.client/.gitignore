@@ -28,7 +28,10 @@ yarn-error.log
 !.vscode/extensions.json
 .history/*
 .vs/
+<<<<<<< HEAD
 
+=======
+>>>>>>> e610747 (Login completo)
 
 # Miscellaneous
 /.angular/cache

@@ -1,73 +1,75 @@
-import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { first } from 'rxjs/operators';
-import { AuthService } from '../../services/auth.service';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { FormsModule } from '@angular/forms'; // Importa FormsModule
+import { CommonModule } from '@angular/common'; // Importa CommonModule para usar ngClass
+import { AuthService, LoginModel } from '../../services/auth.service'; // Importa AuthService y LoginModel
+import Swal from 'sweetalert2'; // Importa SweetAlert2
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
-  standalone: true,
-  imports: [CommonModule, FormsModule, HttpClientModule]
+  standalone: true, // Marca el componente como standalone
+  imports: [FormsModule, CommonModule] // Importa FormsModule y CommonModule
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent {
   email: string = '';
   password: string = '';
   errorMessage: string = '';
-  loading = false;
-  returnUrl: string = '/';
+  passwordType: string = 'password'; // Contraseña oculta por defecto
+  emailInvalid: boolean = false; // Para manejar la validación del correo
+  passwordInvalid: boolean = false; // Para manejar la validación de la contraseña
 
-  constructor(
-    private authService: AuthService,
-    private router: Router,
-    private route: ActivatedRoute
-  ) {
-    // Redirigir si ya está logueado
-    const token = localStorage.getItem('token');
-    const expiration = localStorage.getItem('tokenExpiration');
+  constructor(private authService: AuthService, private router: Router) { }
 
-    if (token && expiration && new Date(expiration) > new Date()) {
-      this.router.navigate(['/']);
-    }
-  }
+  login() {
+    this.emailInvalid = !this.email;
+    this.passwordInvalid = !this.password;
 
-  ngOnInit(): void {
-    // Obtener URL de retorno de los parámetros de consulta o usar '/' por defecto
-    this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
-  }
-
-  login(): void {
-    this.errorMessage = '';
-    this.loading = true;
-
-    // Validar campos
-    if (!this.email || !this.password) {
-      this.errorMessage = 'Por favor, completa todos los campos';
-      this.loading = false;
+    if (this.emailInvalid || this.passwordInvalid) {
       return;
     }
 
-    // Llamar al servicio de autenticación
-    this.authService.login({
-      username: this.email,
-      password: this.password
-    })
-      .pipe(first())
-      .subscribe({
-        next: (response) => {
-          console.log(response)
-          this.router.navigate(["/dashboard"]);
-        },
-        error: error => {
-          this.errorMessage = error?.message || 'Usuario o contraseña incorrectos';
-          this.loading = false;
-        },
-        complete: () => {
-          this.loading = false;
+    const loginData: LoginModel = { email: this.email, password: this.password }; // Asegúrate de que los nombres de los campos coincidan con los esperados por el backend
+
+    // Mostrar pantalla de carga
+    Swal.fire({
+      title: 'Iniciando sesión...',
+      allowOutsideClick: false,
+      didOpen: () => {
+        Swal.showLoading();
+      }
+    });
+
+    this.authService.login(loginData).subscribe({
+      next: (response) => {
+        // Cerrar pantalla de carga
+        Swal.close();
+        // Redirige a la página de inicio (home)
+        this.router.navigate(['/home']);
+      },
+      error: (error) => {
+        // Cerrar pantalla de carga
+        Swal.close();
+        let errorMessage = 'Error en el servidor. Inténtalo más tarde.';
+        if (error.status >= 400 && error.status < 500) {
+          errorMessage = 'Credenciales incorrectas';
+        } else if (error.status >= 500) {
+          errorMessage = 'Error en el servidor. Inténtalo más tarde.';
         }
-      });
+
+        // Mostrar mensaje de error
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: errorMessage,
+        });
+      }
+    });
+  }
+
+  // Método para alternar visibilidad de la contraseña
+  togglePasswordVisibility() {
+    this.passwordType = this.passwordType === 'password' ? 'text' : 'password';
   }
 }
